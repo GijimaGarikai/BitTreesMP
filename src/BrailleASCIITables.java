@@ -43,7 +43,7 @@ public class BrailleASCIITables {
    * braille character.
    */
   public static String toBraille(char letter) throws InvalidBitsException {
-    int letterAscii = (int) Character.toLowerCase(letter);
+    int letterAscii = (int) letter;
     String binaryLetter = Integer.toBinaryString(letterAscii);
     binaryLetter = String.format("%8s", binaryLetter).replace(' ', '0');
     return asciiBraille.get(binaryLetter);
