@@ -65,7 +65,7 @@ This will convert the ASCII string "Hello" to Unicode Braille symbols, which can
 $ java BrailleASCII unicode 010110101010110010101110
 ⠚⠕⠓⠝
 ```
-This will convert the Braille bit pattern (for 'Hello' in this case) to Unicode Braille symbols, which can be displayed in environments that support Unicode.
+This will convert the Braille bit pattern (for 'John' in this case) to Unicode Braille symbols, which can be displayed in environments that support Unicode.
 
 ## Additional Notes
 
