@@ -23,9 +23,9 @@ public class BrailleASCIITables {
   // +-----------------+
   public BrailleASCIITables() throws FileNotFoundException {
     // get file paths
-    String asciiBraillePath = "/Users/garikaigijima/Documents/CSC 207/BitTreesMP/src/ASCIIToBrailleTable.txt";
-    String brailleAsciiPath = "/Users/garikaigijima/Documents/CSC 207/BitTreesMP/src/BrailleToAsciiTable.txt";
-    String brailleUnicodePath = "/Users/garikaigijima/Documents/CSC 207/BitTreesMP/src/BrailleToUnicodeTable.txt";
+    String asciiBraillePath = "ASCIIToBrailleTable.txt";
+    String brailleAsciiPath = "BrailleToAsciiTable.txt";
+    String brailleUnicodePath = "BrailleToUnicodeTable.txt";
 
     // create trees
     asciiBraille.load(new FileInputStream(asciiBraillePath));
